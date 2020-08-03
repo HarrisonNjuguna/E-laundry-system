@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(pic2.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+#mainbox{
+    cursor: pointer;
+    font-size: 24px;
+    transition: all .6s;
+    color: white;
+}
+
+.nav li {
+    text-decoration: none;
+    float: right;
+    padding-right: 20px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav li a:hover{
+    background: #32cd32;
+    backface-visibility: visible;
+    color: black;
+    transition:all .5s ease;
+    font-size: 25px;
+}
+.sidemenu header{
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    user-select: none;
+    
+    
+}
+
+.sidemenu{
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    width: 0px;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #999;
+    display: block;
+    line-height: 50px;
+    box-sizing: border-box;
+    
+}
+
+.sidemenu a:hover{
+    color: white;
+    font-size: 24px;
+}
+
+.sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+.services-text{
+ position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 10% 30%;
+    font-size: 20px;
+    color: antiquewhite;
+         
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

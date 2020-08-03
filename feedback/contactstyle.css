@@ -1,0 +1,145 @@
+
+footer {
+    display: block;
+}
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(2.jpeg.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+header{
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(2.jpeg.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+.wrap {width: 980px;margin: 0 auto;}
+
+.section.banner .wrap {position: relative;}
+
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+
+}
+
+.nav li{
+    display: inline-block;
+
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+.nav li a:hover{
+    background: #32cd32;
+    backface-visibility: visible;
+    color: black;
+    transition:all .5s ease;
+    font-size: 20px;
+}
+
+
+.contact-section{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #32cd32;
+}
+
+.contact-form-text{
+    display: block;
+    background: black;
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 16px 10px;
+    margin: 16px 0;
+    border:none;
+    transition: 0.5s;
+    outline: none;
+    color: white;
+
+}
+
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #32cd32;
+}
+
+textarea.contact-form-text{
+    color: white;
+    resize: none;
+    height: 100px;
+}
+
+
+.contact-form-btn{
+    float: right;
+    background: #32cd32;
+    color: white;
+    border:none;
+    padding: 12px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: #006400;
+}
+
+.footer{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+
+}
+
+
+.footer li{
+    display: inline-block;
+
+}
+.footer li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace;
+    font-size: 15px;
+
+}
+.footer li a:hover{
+    background: #32cd32;
+    backface-visibility: visible;
+    color: black;
+    transition:all .5s ease;
+    font-size: 20px;
+}
