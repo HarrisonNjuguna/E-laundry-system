@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>HOTEL-FILL-IN-FORM</title>
+    <link rel="stylesheet" href="products/hotel-fill-in-form/hotel-formstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    
+    
+    
+    <body>
+        
+        <nav><a href ="index2.html">HOME</a></nav>
+        
+    <div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">HOTEL LAUNDRY FORM</h1>
+    
+     <fieldset>
+    <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+    <legend>HOTEL INFORMATION</legend>
+    <!-- formally describes the purpose of the fieldset it is included inside. -->
+    <div>
+      <div class="textbox">
+      <input type="text" required id="name" name="user_name" placeholder="Enter name of hotel">   </div>
+         </div>
+         
+    <div>
+       <div class="textbox">
+      <input type="Address" id="address" name="Address" placeholder="Enter address ">  
+         </div>
+         </div>
+         
+    <div>
+    <div class="textbox">
+      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+         </div>
+         
+         
+    <div>
+      <div class="textbox">
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+         </div>
+         </div>
+     
+  </fieldset>
+    
+       <fieldset>
+    <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+    <legend>MANAGER INFORMATION</legend>
+    <!-- formally describes the purpose of the fieldset it is included inside. -->
+    <div>
+        <div class="textbox">
+      <input type="text" required id="name" name="user_name" placeholder="Enter name of manager">  
+        </div>
+           </div>
+    <div>
+        <div class="textbox">
+      <input type="Address" id="address" name="Address" placeholder="Enter address ">   
+           </div>
+           </div>
+    <div>
+        <div class="textbox">
+      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+           </div>
+    <div>
+      <div class="textbox">
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+        </div>
+           </div>
+     
+  </fieldset>
+    
+    <div>
+      <label for="Pricing">Select pricing method</label>
+      <p>
+        <input type="radio" name="pricing" value="per item price" checked> per item price<br>
+        <input type="radio" name="pricing" value="per kg"> per kg<br>
+      </p>
+    </div>
+    
+    <div>
+        <div class="textbox">
+        <input type="text" name="loation" placeholder="Enter pick-up location" ><br>
+        </div>
+    
+    </div><br>
+    
+    
+    <a href="apartment-form.html">Other Services</a><br>
+    <br>
+    
+     <input class="btn" type="button" value="Submit">
+    
+    
+    
+    
+        </form>
+        </div>
+    
+    
+    
+    </body>
+</html>

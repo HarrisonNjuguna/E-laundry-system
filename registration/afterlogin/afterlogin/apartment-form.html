@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>APARTMENT-FILL-IN-FORM</title>
+    <link rel="stylesheet" href="products/apartment-fill-in-form/apartment-formstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        
+        <nav><a href ="index2.html">HOME</a></nav>
+        
+        <form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">APARTMENT LAUNDRY FORM</h1>
+            
+            <fieldset>
+                <legend>CUSTOMER INFORMATION</legend>
+            
+          <div>
+      <div class="textbox">
+      <input type="text" required id="name" name="user_name" placeholder="Enter your name">   </div>
+         </div>
+         
+    <div>
+       <div class="textbox">
+      <input type="Address" id="address" name="Address" placeholder="Enter address ">  
+         </div>
+         </div>
+         
+    <div>
+    <div class="textbox">
+      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+         </div>
+         
+         
+    <div>
+      <div class="textbox">
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+         </div>
+         </div>
+            </fieldset>
+            
+            
+             <div>
+      <label for="Pricing">Select pricing method</label>
+      <p>
+        <input type="radio" name="pricing" value="per price item" checked> per item price<br>
+        <input type="radio" name="pricing" value="per kg"> per kg<br>
+      </p>
+    </div>
+            
+             <div>
+        <div class="textbox">
+        <input type="text" name="loation" placeholder="Enter pick-up location" ><br>
+        </div>
+    
+    </div><br>
+
+                   <div>
+            <label for="Other-services">Select Other Service:</label>
+             <select id="dropdown">
+                   <option value="carpet-washing">Carpet Washing</option>
+                   <option value="vacuum-cleaning">Vacuum Cleaning</option>
+                  <option value="jersey-cleaning">Jerssey Cleaning</option>
+                       </select>
+                </div>
+            <br>
+            
+            
+            
+            <input class="btn" type="button" value="Submit">
+            
+        </form>
+    
+    </body>
+</html>

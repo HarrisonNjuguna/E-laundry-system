@@ -6,56 +6,21 @@ body{
     background-size:cover;
     height: 100vh;
     background-position: center;
+
+}
+.container{
+    margin-left: 600px;
+    margin-top: 200px;
 }
 
-.login-box{
-    width: 280px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #32cd32;
-}
-
-.login-box h1{
-    float: left;
+.container h2{
     font-size: 30px;
-    margin-bottom: 50px;
-    padding: 13px 0;
-}
-
-.textbox{
-   display: block;
-    background: black;
-    width: 100%;
-    overflow: hidden;
-    font-size: 15px;
-    padding: 8px 0px;
-    margin: 8px 0;
-    border:none;
-    transition: 0.5s;
-    outline: none;
-    color: white;
-}
-
-.textbox:hover{
-     box-shadow: 0 0 10px 4px #32cd32;
-}
-
-.textbox input{
-    border: none;
-    background: none;
-    color:white;
-    float: left;
-    outline: none;
-    font-size: 15px;
-    width: 80px;
-    margin: 10px;
-    
+    color: #32cd32;
+    letter-spacing: 4px;
 }
 
 .btn{
-   float: right;
+    position: relative;
     background: #32cd32;
     color: white;
     border:none;

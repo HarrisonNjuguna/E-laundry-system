@@ -9,41 +9,25 @@
     
     </head>
         <body>
-            <div class="login-box">
-                <h1>Register</h1>
+           <div class="container">
+               <h2>Register</h2>
                 
-                 <div class="textbox">
-               <input type="text" placeholder="First Name" name="" value="">
-            
-             </div>
-                
-                 <div class="textbox">
-               <input type="text" placeholder="Last Name" name="" value="">
-            
-             </div>
-                 <div class="textbox">
-               <input type="email" placeholder="E-mail" name="" value="">
-            
-             </div>
-                <div class="textbox">
-               <input type="password" placeholder="Password" name="" value="">
-            
-             </div>
-                
-                 <div class="textbox">
-               <input type="password" placeholder="Confirm " name="" value="">
-            
-             </div>
-                
-                  <input class="btn" type="button" value="Create">
-            
-            
-            
-            
-            
-            
+               <a href="afterlogin/afterlogin/hotel-form.html"> <input class="btn" type="button" value="Hotel Form"></a>
+               <br>
+               <br>
+               <a href="afterlogin/afterlogin/company-form.html"><input class="btn" type="button" value="Company Form"></a>
+               <br>
+               <br>
+            <a href="afterlogin/afterlogin/apartment-form.html"><input class="btn" type="button" value="Apartment Form"></a>
+               <br>
+               
             
             </div>
+            
+            
+            
+            
+
     
     
     

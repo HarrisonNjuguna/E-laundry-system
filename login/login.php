@@ -23,7 +23,7 @@
             
              </div>
             
-            <input class="btn" type="button" value="Sign in">
+           <a href="afterlogin/afterlogin/index2.html"> <input class="btn" type="button" value="Sign in"></a>
             
             
             

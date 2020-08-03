@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(1.jpeg.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+
+table{
+    width: 800px;
+    color: white;
+    background-color: black;
+  opacity: 0.6;
+    
+}
+
+nav {
+    text-decoration: none;
+    float: right;
+    padding-right: 20px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Luna";
+    font-size: 15px;
+    
+}
+nav a:hover{
+    background: white;
+    backface-visibility: visible;
+    color: black;
+    transition:all .5s ease;
+}
+
+
+tr, th{
+    color: #32cd32;
+}
+th, caption{
+    text-align: left;
+    padding-top: 30px;
+}
+    
+}
+
+th{
+    text-align: left;
+    
+}
+
+table,th, td{
+    border: 1px solid white;  
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px; 
+    
+}
+
