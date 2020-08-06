@@ -15,7 +15,7 @@
         <nav><a href ="index2.html">HOME</a></nav>
         
     <div id="outside">
-<form id="survey-form" action="/my-handling-form-page" method="post">
+<form id="hotel-form" action="hotel-insert.php" method="post">
   <h1 id="title">HOTEL LAUNDRY FORM</h1>
     
      <fieldset>
@@ -24,24 +24,24 @@
     <!-- formally describes the purpose of the fieldset it is included inside. -->
     <div>
       <div class="textbox">
-      <input type="text" required id="name" name="user_name" placeholder="Enter name of hotel">   </div>
+      <input type="text" required id="hotel_name" name="hotel_name" placeholder="Enter name of hotel">   </div>
          </div>
          
     <div>
        <div class="textbox">
-      <input type="Address" id="address" name="Address" placeholder="Enter address ">  
+      <input type="Address" id="hotel_address" name="hotel_address" placeholder="Enter address ">  
          </div>
          </div>
          
     <div>
     <div class="textbox">
-      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+      <input type="email" required id="hotel_email" name="hotel_email" placeholder="Enter email">   </div>
          </div>
          
          
     <div>
       <div class="textbox">
-      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+      <input type="number" id="hotel_phone" name="hotel_phone" placeholder="Enter 10 digit number"> 
          </div>
          </div>
      
@@ -53,21 +53,21 @@
     <!-- formally describes the purpose of the fieldset it is included inside. -->
     <div>
         <div class="textbox">
-      <input type="text" required id="name" name="user_name" placeholder="Enter name of manager">  
+      <input type="text" required id="hotel_manager" name="hotel_manager" placeholder="Enter name of manager">  
         </div>
            </div>
     <div>
         <div class="textbox">
-      <input type="Address" id="address" name="Address" placeholder="Enter address ">   
+      <input type="Address" id="hotel_manager_address" name="hotel_manager_address" placeholder="Enter address ">   
            </div>
            </div>
     <div>
         <div class="textbox">
-      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+      <input type="email" required id="hotel_manager_email" name="hotel_manager_email" placeholder="Enter email">   </div>
            </div>
     <div>
       <div class="textbox">
-      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+      <input type="number" id="hotel_manager_number" name="hotel_manager_number" placeholder="Enter 10 digit number"> 
         </div>
            </div>
      
@@ -83,7 +83,7 @@
     
     <div>
         <div class="textbox">
-        <input type="text" name="loation" placeholder="Enter pick-up location" ><br>
+        <input type="text" name="location" placeholder="Enter pick-up location" ><br>
         </div>
     
     </div><br>
@@ -92,13 +92,14 @@
     <a href="apartment-form.html">Other Services</a><br>
     <br>
     
-     <input class="btn" type="button" value="Submit">
+     <input class="btn" type="submit" value="Insert">
     
     
     
     
         </form>
         </div>
+       
     
     
     
