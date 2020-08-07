@@ -7,70 +7,70 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
-    
+
     <body>
-        
+
         <nav><a href ="index2.html">HOME</a></nav>
-        
+
     <div id="outside">
-<form id="survey-form" action="/my-handling-form-page" method="post">
+<form id="company-form" action="company-insert.php" method="post">
   <h1 id="title">COMPANY LAUNDRY FORM</h1>
-    
+
      <fieldset>
     <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
     <legend>COMPANY INFORMATION</legend>
     <!-- formally describes the purpose of the fieldset it is included inside. -->
     <div>
       <div class="textbox">
-      <input type="text" required id="name" name="user_name" placeholder="Enter name of company">   </div>
+      <input type="text" required id="company_name" name="company_name" placeholder="Enter name of company">   </div>
          </div>
-         
+
     <div>
        <div class="textbox">
-      <input type="Address" id="address" name="Address" placeholder="Enter address ">  
+      <input type="Address" id="company_address" name="company_address" placeholder="Enter address ">  
          </div>
          </div>
-         
+
     <div>
     <div class="textbox">
-      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+      <input type="email" required id="company_email" name="company_email" placeholder="Enter email">   </div>
          </div>
-         
-         
+
+
     <div>
       <div class="textbox">
-      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+      <input type="number" id="company_phone" name="company_phone" placeholder="Enter 10 digit number"> 
          </div>
          </div>
-     
+
   </fieldset>
-    
+
        <fieldset>
     <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
     <legend>MANAGER INFORMATION</legend>
     <!-- formally describes the purpose of the fieldset it is included inside. -->
     <div>
         <div class="textbox">
-      <input type="text" required id="name" name="user_name" placeholder="Enter name of manager">  
+      <input type="text" required id="company_manager" name="company_manager" placeholder="Enter name of manager">  
         </div>
            </div>
     <div>
         <div class="textbox">
-      <input type="Address" id="address" name="Address" placeholder="Enter address ">   
+      <input type="Address" id="company_manager_address" name="company_manager_address" placeholder="Enter address ">  
            </div>
            </div>
     <div>
         <div class="textbox">
-      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+      <input type="email" required id="company_manager_email" name="company_manager_email" placeholder="Enter email">   </div>
            </div>
     <div>
       <div class="textbox">
-      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+      <input type="number" id="company_manager_number" name="company_manager_number" placeholder="Enter 10 digit number"> 
         </div>
            </div>
-     
+
   </fieldset>
-    
+
     <div>
       <label for="Pricing">Select pricing method</label>
       <p>
@@ -78,7 +78,7 @@
         <input type="radio" name="pricing" value="per kg"> per kg<br>
       </p>
     </div>
-    
+
          <div>
       <label for="services">Select services:</label>
       <select id="dropdown">
@@ -87,29 +87,22 @@
           <option value="both-services">both services</option>
   </select>
     </div><br>
-    
+
     <div>
         <div class="textbox">
         <input type="text" name="loation" placeholder="Enter pick-up location" ><br>
         </div>
-    
+
     </div><br>
-    
+
     <a href="apartment-form.html">Other Services</a><br>
     <br>
-    
-   
-    
-     <input class="btn" type="button" value="Submit">
-    
- 
-    
-    
-    
+
+
+
+     <input class="btn" type="submit" value="Insert">
+
         </form>
         </div>
-    
-    
-    
     </body>
 </html>

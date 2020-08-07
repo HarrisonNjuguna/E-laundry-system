@@ -7,42 +7,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
-    
+
     <body>
-        
+
         <nav><a href ="index2.html">HOME</a></nav>
-        
-        <form id="survey-form" action="/my-handling-form-page" method="post">
+
+        <form id="apartment-form" action="apartment-insert.php" method="post">
   <h1 id="title">APARTMENT LAUNDRY FORM</h1>
-            
+
             <fieldset>
                 <legend>CUSTOMER INFORMATION</legend>
-            
+
           <div>
       <div class="textbox">
-      <input type="text" required id="name" name="user_name" placeholder="Enter your name">   </div>
+      <input type="text" required id="customer_name" name="customer_name" placeholder="Enter your name">   </div>
          </div>
-         
+
     <div>
        <div class="textbox">
-      <input type="Address" id="address" name="Address" placeholder="Enter address ">  
+      <input type="Address" id="customer_address" name="customer_address" placeholder="Enter address ">  
          </div>
          </div>
-         
+
     <div>
     <div class="textbox">
-      <input type="email" required id="email" name="user_email" placeholder="Enter email">   </div>
+      <input type="email" required id="customer_email" name="customer_email" placeholder="Enter email">   </div>
          </div>
-         
-         
+
+
     <div>
       <div class="textbox">
-      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
+      <input type="number" id="customer_number" name="customer_number" placeholder="Enter 10 digit number"> 
          </div>
          </div>
             </fieldset>
-            
-            
+
+
              <div>
       <label for="Pricing">Select pricing method</label>
       <p>
@@ -50,12 +50,12 @@
         <input type="radio" name="pricing" value="per kg"> per kg<br>
       </p>
     </div>
-            
+
              <div>
         <div class="textbox">
-        <input type="text" name="loation" placeholder="Enter pick-up location" ><br>
+        <input type="text" id="customer_pickup" name="customer_pickup" placeholder="Enter pick-up location" ><br>
         </div>
-    
+
     </div><br>
 
                    <div>
@@ -67,12 +67,10 @@
                        </select>
                 </div>
             <br>
-            
-            
-            
-            <input class="btn" type="button" value="Submit">
-            
+
+            <input class="btn" type="submit" value="Insert">
+
         </form>
-    
+
     </body>
 </html>
